@@ -2,7 +2,7 @@
 Make Simple Contact Management using Python
 
 # MENU
-1. List of Available Contacts
+1. List All Contacts
 2. Add Contac
 3. Delete Contac
 4. Search Contac
