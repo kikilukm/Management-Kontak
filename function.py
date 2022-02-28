@@ -41,9 +41,10 @@ def search_contact(contact_list):
     
     for contact in contact_list:
         target_name = contact["name"]
-        if target_name.find(name) == -0:
+        if target_name.lower().find(name.lower()) == -0:
             print("Sorry Contact Not Found")
         else:
+            print("=" * 20)
             print(f"Name: {contact['name']}")
             print(f"Email: {contact['email']}")
             print(f"Phone: {contact['phone']}\n")
