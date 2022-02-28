@@ -34,6 +34,8 @@ while True:
         contact_list.append(contact)
     elif menu == 3:
         function.delete_contact(contact_list)
+    elif menu == 4:
+        function.search_contact(contact_list)
     
 
 print("See You...!")
