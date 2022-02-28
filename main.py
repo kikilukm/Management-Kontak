@@ -22,20 +22,21 @@ while True:
     print("0.Exit Menu")
     
    
-    menu = int( input("Select Menu: ") )
+    menu = input("Select Menu: ")
    
 
-    if menu == 0:
+    if menu == "0":
         break
-    elif menu == 1:
+    elif menu == "1":
         function.contact_display(contact_list)
-    elif menu == 2:
+    elif menu == "2":
         contact = function.add_contact()
         contact_list.append(contact)
-    elif menu == 3:
+    elif menu == "3":
         function.delete_contact(contact_list)
-    elif menu == 4:
+    elif menu == "4":
         function.search_contact(contact_list)
-    
+    else:
+        print("Sorry..Menu Unavailable..")
 
 print("See You...!")
